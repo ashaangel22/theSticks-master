@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body>
+
+		<section id="scene">
+			<div class="layer background" data-depth="0.2">
+				<div class="bg-image"></div>
+			</div>
+
+			<div class="layer background1" data-depth="0.6">
+				<div class="tree-layer"></div>
+			</div>
+
+			<div class="layer background1" data-depth="0.3">
+				<div class="tree-layer2"></div>
+			</div>
+			
+			<div class="layer middle" data-depth="0.5">
+				<h1>The Sticks</h1>
+			</div>
+
+			<div class="layer foreground" data-depth="0.8">
+				<div class="fg-panel"></div>
+			</div>
+		</section>
+
+
+
+		<section class="cabinOutside">
+			<div class="cabin">
+				<img src="assets/img/cabin.png">
+			</div>
+			<div class="car">
+				<img src="assets/img/car.png">
+			</div>
+			<div class="speech1">
+				<img src="assets/img/here2.png">
+			</div>
+		</section>
+
+
+		<section id="scene2">
+			<div class="layer background" data-depth="0.2">
+				<div class="bg-image"></div>
+			</div>
+
+			<div class="layer background1" data-depth="0.5">
+				<div class="guy1"></div>
+			</div>
+
+			<div class="layer middle" data-depth="0.4">
+				<div class="girl"></div>
+			</div>
+
+			<div class="layer foreground" data-depth="0.6">
+				<div class="guy2"></div>
+			</div>
+		</section>
+
+		<section class="toast">
+			<div class="girl">
+				<img src="assets/img/girl.png">
+			</div>
+			<div class="toastSpeech">
+				<img src="assets/img/toast.png">
+			</div>
+			<div class="choices">
+				<button class="cheers1">Let's Drink</button>
+
+				<h1>OR</h1>
+				<button class="cheers2">No, Let's Unpack</button>
+			</div>
+		</section>
+
+		<section class="goUnpack hidden">
+			<div class="textContainer">
+                <p>Nah, I think</p>
+                <br>
+                <p>I'll just go find my room</p>
+                <p>and settle in.</p>
+            </div>
+            <img src="assets/img/goUnpack.png">
+		</section>
+
+		<section class="bedUnpack hidden">
+            <img src="assets/img/bedroomCreepy.png">
+            <div class="textContainer">
+                <p>This room is...</p>
+                <br>
+                <p>...kinda creepy</p>
+                <p>At least there's art.</p>
+            </div>
+		</section>
+
+		<section class="painting hidden">
+            <img src="assets/img/painting.png">
+            <div class="textContainer">
+                <p>Wait what...</p>
+                <br>
+                <p>is that shadow?</p>
+            </div>
+		</section>
+
+		<section class="cheers hidden">
+			<img src="assets/img/Cheers2.jpg">
+            <img class="img2" src="assets/img/CheersHand.png">
+		</section>
+
+            
+        <section class="lightsOut hidden">
+            <img src="assets/img/Light1.jpg">
+            <img src="assets/img/Light2.jpg">
+            <img src="assets/img/Light3.jpg">
+		</section>
+
+<!-- 		<section class="scream2 hidden">
+            <img src="assets/img/AHH.png">
+            <div class="textContainer">
+                <p>The power must have gone out.</p>
+                <br><p>I can't see anything...</p>
+            </div>
+            <div class="choices">
+				<button class="scream1">Find Breaker</button>
+				<h1>OR</h1>
+				<button class="scream2">Find the Group</button>
+			</div>
+		</section> -->
+        
+        <section class="scream hidden">
+            <img src="assets/img/AHH.png">
+            <div class="textContainer">
+                <p>The power went out...</p>
+                <br><p>Should someone check the breaker?</p>
+            </div>
+            <div class="choices">
+				<button class="scream1">Volunteer</button>
+				<h1>OR</h1>
+				<button class="scream2">Stay with Group</button>
+			</div>
+		</section>
+        
+        <section class="basement hidden">
+            <div class="textContainer">
+                <p>Sigh...</p>
+                <br><p>I'll go check it out.</p>
+            </div>
+            <img class="img2" src="assets/img/SpiderWebTwo.png">
+            <img src="assets/img/LightsOut.jpg">
+            <img class="img3" src="assets/img/BaseMentSteps.jpg">
+		</section>
+        
+        <section class="breaker hidden">
+            <img src="assets/img/fuseboxOpen2.png" usemap="#Map">
+            <map name="Map">
+              <area shape="rect" coords="309,208,362,249" href="#a" id="wrongSwitch">
+              <area shape="rect" coords="394,216,447,255" href="#a" id="wrongSwitch">
+              <area shape="rect" coords="308,266,365,324" href="#a" id="wrongSwitch">
+              <area shape="rect" coords="395,269,447,323" href="#a" class="rightSwitch">
+              <area shape="rect" coords="299,336,357,383" href="#a" id="wrongSwitch">
+              <area shape="rect" coords="394,335,452,386" href="#a" id="wrongSwitch">
+            </map>
+            <img class="lightOn" src="assets/img/HangingLight.png">
+            <div class="textContainer">
+                <p>I did it!</p>
+                <br>
+                <p>It's still flickering.</p>
+                <p>but it'll stabilize soon.</p>
+            </div>
+		</section>
+        
+        <section class="basementScary hidden">
+            <div class="bg-image"></div>
+            <img class="shadow" src="assets/img/Ghost.png">
+		</section>
+        
+        <section class="goodJob hidden">
+            <img class= "goodJobImage" src="assets/img/goodJob.png">
+            <img class= "goodJobSpeech" src="assets/img/goodWork2.png">
+            <img class= "goodNightImage" src="assets/img/GoToBedGuy.jpg">
+            <img class= "goodNightSpeech" src="assets/img/goToBed2.png">
+            <div class="textContainer">
+                <p>Good Night...</p>
+                <br>
+                <p>Im so tired...</p>
+                <p>I must be seeing things.</p>
+            </div>
+		</section>
+        
+        <section class="bedtime hidden">
+            <img src="assets/img/bed1.png">
+            <img src="assets/img/bed2.png">
+            <img src="assets/img/bed3.png">
+		</section>
+        
+        <section class="sleeping hidden">
+            <img src="assets/img/sleeping.png">
+            <div class="textContainer">
+                <p>Mmm...</p>
+                <br>
+                <p>Who's there?</p>
+            </div>
+		</section>
+        
+        <section class="death hidden">
+            <img src="assets/img/ScaredEyes.png">
+		</section>
+		
+
+		<script
+		  src="http://code.jquery.com/jquery-3.1.1.min.js"
+		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		  crossorigin="anonymous"></script>
+		<script src="assets/js/jquery.scrollTo.js"></script>
+		<script src="assets/js/jquery.parallax.js"></script>
+		<script src="assets/js/jquery.waypoints.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
